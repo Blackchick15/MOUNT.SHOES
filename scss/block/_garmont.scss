@@ -1,0 +1,69 @@
+.garmont {
+  width: 100%;
+  height: 800px;
+  background-color: var(--color-background);
+}
+// .garmont__div {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+.garmont__div_title {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.garmont__div_title__h2 {
+  color: var(--color-text);
+  font-family: "Bruno Ace SC";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.garmont__div_shoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.garmont__div_shoes__ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.garmont__div_shoes__ul_li__title {
+  display: flex;
+  width: 557px;
+  height: 110px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.garmont__div_shoes__ul_li__text_title {
+  color: var(--color-text);
+  font-family: "Bruno Ace SC";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.garmont__div_shoes__ul_li {
+  display: flex;
+  width: 580px;
+
+  margin-bottom: 15px;
+}
+
+.garmont__div_shoes__ul_li__text {
+  color: var(--color-text);
+  font-family: "Bruno Ace SC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.garmont__div_shoes__ul_li__svg {
+  width: 16px;
+  height: 16px;
+}
