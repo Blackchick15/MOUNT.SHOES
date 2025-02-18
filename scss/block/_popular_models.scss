@@ -1,0 +1,77 @@
+.popular__models {
+  width: 100%;
+  height: 700px;
+  background-color: var(--color-background);
+}
+.popular__models_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.popular__models_title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 115px;
+}
+.popular__models_title__text {
+  color: var(--color-text);
+  font-family: "Bruno Ace SC";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.popular__models_ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+.cart__li {
+  width: 300px;
+  height: 350px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease-in-out;
+}
+.cart {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart__li:hover {
+  transform: translateY(-10px); // Поднимаем карточку при наведении
+}
+.cart__img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+}
+.cart__sell {
+  display: flex;
+  width: 65px;
+  height: 25px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--color-text);
+  font-family: "Bruno Ace SC";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cart__div {
+  display: flex;
+  width: 260px;
+  height: 25px;
+  align-items: center;
+  justify-content: space-between;
+}

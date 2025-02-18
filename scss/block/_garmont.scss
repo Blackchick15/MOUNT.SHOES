@@ -39,6 +39,7 @@
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
+  margin-bottom: 20px;
 }
 .garmont__div_shoes__ul_li__text_title {
   color: var(--color-text);
@@ -51,11 +52,12 @@
 .garmont__div_shoes__ul_li {
   display: flex;
   width: 580px;
-
+  margin-left: 15px;
   margin-bottom: 15px;
 }
 
 .garmont__div_shoes__ul_li__text {
+  width: 558px;
   color: var(--color-text);
   font-family: "Bruno Ace SC";
   font-size: 16px;
@@ -63,7 +65,6 @@
   font-weight: 400;
   line-height: normal;
 }
-.garmont__div_shoes__ul_li__svg {
-  width: 16px;
-  height: 16px;
+.garmont__div_shoes__img{
+  margin-top: 55px;
 }
