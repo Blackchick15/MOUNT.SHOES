@@ -1,7 +1,7 @@
 .why__us {
   width: 100%;
   height: 550px;
-padding-top: 20px;
+  padding-top: 20px;
   background-color: var(--color-background);
 }
 .why__us_div {
@@ -36,20 +36,20 @@ padding-top: 20px;
   margin-bottom: 85px;
 }
 
-.why__us_div__brands{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+.why__us_div__brands {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
-.why__us_div__brands_ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 950px;
+.why__us_div__brands_ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 950px;
 }
 
-.why__us_div__brands_ul__li{
-    width: 250px;
-    height: 200px;
+.why__us_div__brands_ul__li {
+  width: 250px;
+  height: 200px;
 }
