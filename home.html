@@ -9,10 +9,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:wght@100;400&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="./css/main.css" />
-  <title>Document</title>
+  <title>Home</title>
 </head>
 
-<body>
+<body id="content">
   <section class="header__section">
     <header class="header">
       <div class="header_bc">
@@ -28,19 +28,19 @@
             <nav class="header_div__nav">
               <ul class="header_div__nav_ul">
                 <li class="header_div__nav_ul__li">
-                  <p class="header_div__nav_ul__li_text__red">Home</p>
+                  <a href="#" onclick="loadPage('home')" class="header_div__nav_ul__li_text__red">Home</a>
                 </li>
                 <li class="header_div__nav_ul__li_1">
-                  <p class="header_div__nav_ul__li_text">catalog</p>
+                  <a href="#" onclick="loadPage('catalog')" class="header_div__nav_ul__li_text">catalog</a>
                 </li>
                 <li class="header_div__nav_ul__li_2">
-                  <p class="header_div__nav_ul__li_text">new shoes</p>
+                  <a href="#" onclick="loadPage('new shoes')" class="header_div__nav_ul__li_text">new shoes</a>
                 </li>
                 <li class="header_div__nav_ul__li_2">
-                  <p class="header_div__nav_ul__li_text">about us</p>
+                  <a href="#" onclick="loadPage('about us')" class="header_div__nav_ul__li_text">about us</a>
                 </li>
                 <li class="header_div__nav_ul__li_3">
-                  <p class="header_div__nav_ul__li_text">cheap</p>
+                  <a href="#" onclick="loadPage('cheap')" class="header_div__nav_ul__li_text">cheap</a>
                 </li>
               </ul>
             </nav>
@@ -316,5 +316,5 @@
     </div>
   </footer>
 </body>
-
+<script src="./js/pages.js"></script>
 </html>
