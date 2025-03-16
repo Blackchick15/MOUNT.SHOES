@@ -931,7 +931,6 @@ legend {
 
 .hero__cat_slider__li_2 {
   display: none;
-  display: flex;
   width: 900px;
   height: 300px;
   flex-direction: column;
@@ -941,7 +940,6 @@ legend {
 
 .hero__cat_slider__li_3 {
   display: none;
-  display: flex;
   width: 900px;
   height: 300px;
   flex-direction: column;
