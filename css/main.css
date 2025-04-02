@@ -968,4 +968,48 @@ legend {
   height: 50px;
   background: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.hero__mount_cat__span {
+  color: #000;
+  font-family: "Bruno Ace SC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.hero__mount_cat__ul {
+  margin-left: 20px;
+}
+
+.hero__mount_cat__box {
+  margin-bottom: 5px;
+}
+
+.hero__mount_cat__box_title {
+  display: flex;
+  color: #000;
+  font-family: "Bruno Ace SC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-items: center;
+}
+
+.hero__mount_cat__box_title__svg {
+  margin-left: 5px;
+}
+
+.hero__mount_cat__box_text {
+  color: #818181;
+  font-family: "Bruno Ace SC";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=main.css.map */
