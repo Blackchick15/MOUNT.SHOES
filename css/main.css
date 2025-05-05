@@ -970,11 +970,53 @@ legend {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+<<<<<<< HEAD
 .hero__mount_cat__title {
+=======
+.hero__mount_cat__span {
+>>>>>>> ccd7a4d7a3905aa97da0e39ea1c5fa728d369faf
   color: #000;
   font-family: "Bruno Ace SC";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+<<<<<<< HEAD
+=======
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.hero__mount_cat__ul {
+  margin-left: 20px;
+}
+
+.hero__mount_cat__box {
+  margin-bottom: 5px;
+}
+
+.hero__mount_cat__box_title {
+  display: flex;
+  color: #000;
+  font-family: "Bruno Ace SC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-items: center;
+}
+
+.hero__mount_cat__box_title__svg {
+  margin-left: 5px;
+}
+
+.hero__mount_cat__box_text {
+  color: #818181;
+  font-family: "Bruno Ace SC";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+>>>>>>> ccd7a4d7a3905aa97da0e39ea1c5fa728d369faf
 }/*# sourceMappingURL=main.css.map */
