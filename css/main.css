@@ -970,19 +970,13 @@ legend {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-<<<<<<< HEAD
-.hero__mount_cat__title {
-=======
 .hero__mount_cat__span {
->>>>>>> ccd7a4d7a3905aa97da0e39ea1c5fa728d369faf
   color: #000;
   font-family: "Bruno Ace SC";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-<<<<<<< HEAD
-=======
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 10px;
@@ -1018,5 +1012,4 @@ legend {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
->>>>>>> ccd7a4d7a3905aa97da0e39ea1c5fa728d369faf
 }/*# sourceMappingURL=main.css.map */
